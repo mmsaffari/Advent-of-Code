@@ -21,7 +21,7 @@ fn solve_part_i() {
                 .into_iter()
                 .map(|d| {
                     d.parse::<i32>()
-                        .expect("Can't convert a this line to number")
+                        .expect("Can't convert this line to a number.")
                 })
                 .collect();
             let fenestres = depts.windows(2);
@@ -49,7 +49,7 @@ fn solve_part_ii() {
                 .into_iter()
                 .map(|d| {
                     d.parse::<i32>()
-                        .expect("Can't convert a this line to number")
+                        .expect("Can't convert this line to a number.")
                 })
                 .collect();
             let sums: Vec<i32> = depts
